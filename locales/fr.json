@@ -1,0 +1,11 @@
+{
+    "user_found": "Utilisateur trouvé pour la requête.",
+    "user_not_found": "Utilisateur introuvable pour la requête.",
+    "user_unauthorised": "Utilisateur non autorisé à effectuer la tâche.",
+    "user_updated": "Utilisateur mis à jour.",
+    "users_not_found" :"Pas des users found for query.",
+    "users_found": "VAR_COUNT users retrouvè pour la  requête.",
+    "user_creation_failed": "VAR_EMAIL could not create l'user.",
+    "user_created": "VAR_EMAIL l'user created.",
+    "user_deleted": "Utilisateur suprimè"
+}

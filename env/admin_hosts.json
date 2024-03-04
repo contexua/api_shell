@@ -1,0 +1,5 @@
+[
+    {"host": "ip6-loopback"},
+    {"host": "http://localhost:3000"},
+    {"host": "https://stuff.com"}
+]

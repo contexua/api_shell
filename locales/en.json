@@ -1,0 +1,11 @@
+{
+    "user_found": "User found for query.",
+    "user_not_found": "User not found for query.",
+    "user_unauthorised": "User unauthorised to perform task.",
+    "user_updated": "User updated.",
+    "users_not_found" :"No users found for query.",
+    "users_found": "VAR_COUNT users found for query.",
+    "user_creation_failed": "VAR_EMAIL could not create user.",
+    "user_created": "VAR_EMAIL user created.",
+    "user_deleted": "User deleted."
+}

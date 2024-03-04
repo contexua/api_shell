@@ -1,0 +1,39 @@
+openapi: 3.0.0
+info:
+  title: Sample API
+  description: A simple API to demonstrate Swagger documentation
+  version: "1.0"
+servers:
+  - url: http://localhost:3000
+    description: Local development server
+paths:
+  /:
+    get:
+      summary: Welcome message
+      description: Returns a simple welcome message to the user
+      responses:
+        '200':
+          description: A welcome message
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: 'Welcome you 😊'
+  /hello:
+    get:
+      summary: Hello World
+      description: Returns a greeting message in JSON format
+      responses:
+        '200':
+          description: JSON object containing a greeting message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                required:
+                  - message
+                example:
+                  message: 'Hello, world!'
